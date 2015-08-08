@@ -1,0 +1,12 @@
+$targets{bbb} = '
+  --tftp
+  --serial
+  --uboot="U-Boot#"
+  --uboot-init="set autoload no; dhcp"
+  --uboot-init="set serverip $NB_MYIP"
+  --netif=wlan0
+  --uboot-addr kernel=${loadaddr}
+  --uboot-addr fdt=${fdtaddr}
+';
+
+$default_target="bbb";
