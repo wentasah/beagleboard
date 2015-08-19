@@ -1,3 +1,6 @@
 [submodule "linux"]
 	path = linux
 	url = https://github.com/beagleboard/linux.git
+[submodule "linux-osadl-qa-farm"]
+	path = linux-osadl-qa-farm
+	url = https://github.com/wentasah/linux-beagleboard.git
