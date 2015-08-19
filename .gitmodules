@@ -1,6 +1,6 @@
 [submodule "linux"]
-	path = linux
+	path = linux/beagleboard.org/src
 	url = https://github.com/beagleboard/linux.git
 [submodule "linux-osadl-qa-farm"]
-	path = linux-osadl-qa-farm
+	path = linux/osadl-qa-farm/src
 	url = https://github.com/wentasah/linux-beagleboard.git
